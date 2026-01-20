@@ -15,13 +15,12 @@
 
 ## 技术栈
 
-- Python 3.8+
+- Python 3.10
 - Scrapy
 - csv（标准库）
 - itemadapter
 - requests
 - time
-- 
 
 ## 目录结构
 scrapy_DD/
@@ -60,7 +59,7 @@ output/现代言情_20260119_061234.csv
 ...
 配置建议（settings.py）
 Python# 防反爬（强烈建议开启）
-DOWNLOAD_DELAY = 2.0
+DOWNLOAD_DELAY = 3.0
 RANDOMIZE_DOWNLOAD_DELAY = True
 CONCURRENT_REQUESTS_PER_DOMAIN = 2
 
